@@ -2,7 +2,7 @@ const express = require('express');
 
 // Create an express instance
 const app = express();
-const accessCode = '88888';
+const accessCode = '12345';
 
 app.use(express.json()); // to support JSON-encoded bodies
 app.use(express.urlencoded({ extended: true })); // to support URL-encoded bodies
